@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="scripts.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&display=swap" rel="stylesheet">
+    <title>Pokestop</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <img src="./assets/pokemon_logo.png" class="pokemon__logo" alt="Logo Pokemon">
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <section class="pokestop">
+                <div class="pokebola">
+                    <img src="./assets/pokebola.png" class="pokebola__image" alt="Imagem Pokebola" onclick="getPokemon()">
+                </div>
+                <div class="pokemon">
+                    <div class="pokemon__wrapperImage">
+                        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/311.svg" class="pokemon__image" alt="" />
+                    </div>
+                    <div class="pokemon__info">
+                        <h2 class="pokemon__name">Pikachu</h2>
+                        <ul class="pokemon__abilities">
+                            <li>teste</li>
+                            <li>teste</li>
+                            <li>teste</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <p class="footer__text">Desenvolvido por <a href="https://www.linkedin.com/in/juliocesarbarbosacastro/"
+                target="_blank">Julio Cesar Barbosa</a> </p>
+        </div>
+    </footer>
+</body>
+
+</html>
